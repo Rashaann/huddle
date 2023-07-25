@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Popins');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Popins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+/* HEADER PART */
+
 #header{
     display: flex;
     justify-content: space-between;
@@ -19,7 +31,7 @@
     color: rgb(251, 89, 192);
     cursor: pointer;
 
-    transition: all 300ms ease-in;
+    transition: all 300ms ease-in;  
 }
 
 #header-button:hover {
@@ -33,10 +45,203 @@
     transition: all 300ms ease-out;
 }
 
+
+
+
+
+
+/* BODY PART */
 #body {
-    background-color: green;
+    /* background-color: green; */
     min-height: 100vh;
 }
+
+
+#intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+}
+
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#text-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32vw;
+    font-size: 13px;
+}
+
+
+
+.body-btn {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(251, 89, 192);
+    border-radius: 20px;
+    border: none;
+
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+
+    font-size: 10px;
+    box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.34);
+}
+
+
+.body-btn:hover {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(251, 89, 192);
+    border-radius: 20px;
+
+    color: rgb(251, 89, 192);
+    cursor: pointer;
+    transition: all 300ms ease-out;
+
+    font-size: 10px;
+    box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.34);
+}
+
+
+
+
+
+
+#mockup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+    height: 100vh;
+}
+
+
+
+
+
+#datainfo-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.number {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.datainfo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(154, 157, 160);
+}
+
+
+
+
+#infos-first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+}
+
+.img {
+    width: 100vw;
+}
+
+#infos-first-content {
+    display: flex;
+    background-color: rgb(246, 251, 255);
+    width: 100vw;
+    height: 50vh;
+}
+
+.infos-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+    width: 50vw;
+}
+
+.infos-text {
+    width: 35vw;
+
+    font-size: 14px;
+}
+
+.infos-right-part {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 50vw;
+}
+
+.grow-together-img-container{
+    padding-left: 100px;
+}
+
+#grow-together-img {
+    width: 30vw;
+    height: 50vh;
+}
+
+
+
+
+
+#infos-second-container {
+    display: flex;
+    height: 90vh;
+}
+
+
+
+
+
+
+#infos-third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+}
+
+#cc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.cc-title{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/* FOOTER PART */
 
 #footer {
     background-color: blue;
