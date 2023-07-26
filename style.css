@@ -315,7 +315,7 @@ body {
 
 
     #footer-top-img {
-        background-image: url('../images/bg-section-top-desktop-1.svg');
+        background-image: url('../images/bg-footer-top-desktop.svg');
         background-repeat: no-repeat;
         background-size: auto;
         background-attachment: local;
@@ -792,7 +792,7 @@ body {
 
 
     #footer-top-img {
-        background-image: url('../images/bg-footer-top-desktop.svg');
+        background-image: url('../images/bg-footer-top-mobile.svg');
         background-repeat: no-repeat;
         background-size: contain;
         background-attachment: scroll;
