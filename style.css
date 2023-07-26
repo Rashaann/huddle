@@ -160,6 +160,17 @@ body {
     height: 130vh;
 }
 
+
+#top-desktop-image-1 {
+    background-image: url('../images/bg-section-top-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: local;
+    background-position: center;
+    width: 100vw;
+    height: 25vh;
+}
+
 .img {
     width: 100vw;
 }
@@ -205,6 +216,17 @@ body {
 
 
 
+#bottom-desktop-image-1 {
+    background-image: url('../images/bg-section-bottom-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: local;
+    background-position: center;
+    width: 100vw;
+    height: 22vh;
+}
+
+
 
 
 #infos-second-container {
@@ -225,6 +247,29 @@ body {
     height: 130vh;
 }
 
+#top-desktop-image-2 {
+    background-image: url('../images/bg-section-top-desktop-2.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: local;
+    background-position: center;
+    width: 100vw;
+    height: 24vh;
+}
+
+
+
+#bottom-desktop-image-2 {
+    background-image: url('../images/bg-section-bottom-desktop-2.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: local;
+    background-position: center;
+    width: 100vw;
+    height: 21vh;
+}
+
+
 #cc-container {
     display: flex;
     flex-direction: column;
@@ -241,9 +286,127 @@ body {
 
 
 
+
+
+
+
 /* FOOTER PART */
 
 #footer {
-    background-color: blue;
-    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 38, 47);
+    height: 80vh;
+}
+
+#footer-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 55vh;
+    width: 30vw;
+    padding-left: 80px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.footer-subtext {
+    width: 20vw;
+    font-size: 12px;
+    color: white;
+}
+
+.footer-text {
+    width: 14vw;
+    font-size: 14px;
+    color: white;
+}
+
+
+.phone-mail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 20vw;
+}
+
+
+#footer-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+#footer-right-part {
+    height: 45vh;
+    width: 35vw;
+}
+
+
+.footer-subtext2 {
+    width: 20vw;
+    font-size: 11px;
+    color: white;
+}
+
+
+
+#footer-input-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+#footer-input {
+    width: 17vw;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+}
+
+#footer-btn {
+    width: 9vw;
+    height: 37px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(251, 89, 192);
+
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+    transition: all 0.7s ease-in;
+}
+
+#footer-btn:hover {
+    width: 9vw;
+    height: 37px;
+    border: 1px solid rgb(251, 89, 192);
+    border-radius: 4px;
+    background-color: rgb(3, 38, 47);
+
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(251, 89, 192);
+    cursor: pointer;
+
+    transition: all 0.7s ease-out;
 }
