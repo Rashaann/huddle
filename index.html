@@ -9,8 +9,8 @@
 </head>
 <body>
     <div id="header">
-        <img src="images/logo.svg" width="200"/>
-        <button id="header-button" >Try it Free</button>
+        <img src="images/logo.svg" id="intro-logo"/>
+        <button id="header-button" >Try It Free</button>
     </div>
     <div id="body">
         <div id="intro-container">
@@ -20,17 +20,17 @@
         </div>
         
         <div id="mockup-container">
-            <img src="images/screen-mockups.svg" width="900"/>
+            <img src="images/screen-mockups.svg" id="mockup-img"/>
         </div>
 
         <div id="datainfo-container">
             <div>
-                <img src="images/icon-communities.svg" width="40" />
+                <img src="images/icon-communities.svg" class="info-icons" />
                 <div class="number">1.4k+</div>
                 <div class="datainfo-text">Communities Formed</div>
             </div>
             <div>
-                <img src="images/icon-messages.svg" width="40" />
+                <img src="images/icon-messages.svg" class="info-icons" />
                 <div class="number">2.7m+</div>
                 <div class="datainfo-text">Messages Sent</div>
             </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="infos-right-part">
                 <h1 class="title">Flowing Conversations</h1>
-                <p class="infos-text">You wouldn't paginate a conversation in real life, so why do it online?<br/>Our threads have just-in-time loading for a more natural flow.</p>
+                <p class="infos-text">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
             </div>
         </div>
 
@@ -68,7 +68,7 @@
             <div id="infos-first-content">
                 <div class="infos-left-part">
                     <h1 class="title">Your Users</h1>
-                    <p class="infos-text">It  takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+                    <p class="infos-text">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
                 </div>
                 <div class="infos-right-part grow-together-img-container">
                     <img src="images/illustration-your-users.svg" id="grow-together-img" />
@@ -84,7 +84,8 @@
         </div>
     </div>
     <div id="footer">
-        <img src="images/bg-footer-top-desktop.svg" class="img" />
+        <div id="footer-top-img"></div>
+        <!-- <img src="images/bg-footer-top-desktop.svg" class="img" /> -->
         <div id="footer-content">
             <div id="footer-left-part">
                 <div>
